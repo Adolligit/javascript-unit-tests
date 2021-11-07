@@ -26,7 +26,7 @@ function circle(radius) {
 
   return {
     radius,
-    area: PI * radius * radius,
+    area: PI * (radius ** 2),
     circumference: 2 * PI * radius,
   };
 }
