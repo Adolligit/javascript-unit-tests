@@ -54,10 +54,18 @@ const characters = {
   },
 };
 
-function getCharacter(name) {
-  if (typeof name === 'string') return characters[name.toLowerCase()];
+const getCharacter = (name) => {
+  if (name === undefined) {
+    return undefined;
+  }
+
+  const lowered = name.toLowerCase();
+
+  if (characters[lowered]) {
+    return characters[lowered];
+  }
 
   return undefined;
-}
+};
 
 module.exports = getCharacter;

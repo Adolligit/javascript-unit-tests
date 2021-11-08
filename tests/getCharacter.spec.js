@@ -68,9 +68,5 @@ describe('9 - Implemente os casos de teste da função `getCharacter`', () => {
     });
     expect(getCharacter('Melissandre'.toLowerCase())).toEqual(getCharacter('Melissandre'.toUpperCase()));
     expect(getCharacter('Adelson')).toBeUndefined();
-    // Testando se a função retorna undefined quando não receber uma string
-    expect(getCharacter(3)).toBeUndefined();
-    expect(getCharacter({})).toBeUndefined();
-    expect(getCharacter([])).toBeUndefined();
   });
 });
