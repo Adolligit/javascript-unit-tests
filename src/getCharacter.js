@@ -61,5 +61,3 @@ function getCharacter(name) {
 }
 
 module.exports = getCharacter;
-
-console.log(getCharacter('bRIeNNE'));
