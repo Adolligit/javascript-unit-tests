@@ -44,3 +44,13 @@ function productDetails(firstProduct, secondProduct) {
 }
 
 module.exports = productDetails;
+
+
+
+// let x = productDetails().map(x => x.details.productId.includes('123'));
+
+// console.log(x);
+
+// let y = 'adelson'.split('');
+
+// console.log(y.includes('n'), y);
